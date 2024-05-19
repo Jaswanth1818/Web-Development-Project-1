@@ -1,0 +1,30 @@
+html, body {
+    margin:0;
+    padding:0;
+}
+body {
+    overflow: hidden;
+}
+#container {
+    height: 100vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+svg {
+    position:fixed;
+}
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+.register p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
